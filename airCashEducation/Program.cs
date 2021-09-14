@@ -6,7 +6,6 @@ namespace airCashEducation
     {
         static void Main(string[] args)
         {
-            
             Console.WriteLine("Hello World!");
         }
     }
