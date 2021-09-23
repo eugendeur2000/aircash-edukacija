@@ -6,25 +6,33 @@ namespace airCashEducation
     {
         static void Main(string[] args)
         {
-            int rb = 6;
-            int b = 7;
-            Console.WriteLine(rb);
-            Console.WriteLine(b);
-            Console.Write("unesite realni broj");
-            int realniBroj = int.Parse(Console.ReadLine());
+            var x = 4;
+            var y = 5;
+            //Console.WriteLine("x=");
+            //Console.WriteLine("unesite y");
+            Console.Write("unesite case");
+            int operacije = int.Parse(Console.ReadLine());
 
-            switch(realniBroj)
+            switch(operacije)
             {
                 case 1:
+                    var suma = x + y;
+                    Console.WriteLine($"x+y={suma}");
                     Console.WriteLine("zbrajanje");
                     break;
                 case 2:
+                    var subtraction = x - y;
+                    Console.WriteLine($"x-y={subtraction}");
                     Console.WriteLine("oduzimanje");
                     break;
                 case 3:
+                    var reproduction = x * y;
+                    Console.WriteLine($"x*y={reproduction}");
                     Console.WriteLine("množenje");
                     break;
                 case 4:
+                    var division = x / y;
+                    Console.WriteLine($"x/y={division}");
                     Console.WriteLine("dijeljenje");
                     break;
             }
