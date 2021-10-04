@@ -6,8 +6,8 @@ namespace airCashEducation
     {
         static void Main(string[] args)
         {
-            var x = 4;
-            var y = 5;
+            int x = 4;
+            int y = 5;
             //Console.WriteLine("x=");
             //Console.WriteLine("unesite y");
             Console.Write("unesite case");
