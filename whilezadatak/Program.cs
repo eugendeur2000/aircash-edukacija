@@ -11,8 +11,9 @@ namespace whilezadatak
             int i = n - 1;
             while (i > 0)
             {
-                i = i - 1;
                 faktorijal = faktorijal * i;
+                i = i - 1;
+                
             } 
             
             return faktorijal;
