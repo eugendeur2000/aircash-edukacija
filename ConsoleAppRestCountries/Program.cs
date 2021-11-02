@@ -14,16 +14,24 @@ namespace ConsoleAppRestCountries
     {
         static void Main(string[] args)
         {
-            //Main().ConfigureAwait(true).GetAwaiter().GetResult();
+            Main().ConfigureAwait(true).GetAwaiter().GetResult();
             //Console.ReadKey();
+            
+            
+            foreach (class Country in Continents)
+            {
+                Console.WriteLine(Continents);
+            }
+            
         }
+
         static async Task Main()
         {
-            
+
             using var client = new HttpClient();
-            var result = await client.GetStringAsync("https://restcountries.com/v3.1/all");
+            var result = await client.GetStringAsync("https://restcountries.com/v2/all");
             //Console.WriteLine(result);
-            var Country = JsonConvert.DeserializeObject<Country>(result);
+            var countries = JsonConvert.DeserializeObject<List<Country>>(result);
         }
         
     }
