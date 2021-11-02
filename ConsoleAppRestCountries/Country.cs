@@ -17,9 +17,6 @@ namespace ConsoleAppRestCountries
 
         public bool LandLocked { get; set; } 
         public List<string> TimeZones { get; set; }
-
-        public bool LandLocked { get; set; }
-        public List<string> Timezones { get; set; }
         public List<Language> Languages { get; set; }
 
 
@@ -36,10 +33,6 @@ namespace ConsoleAppRestCountries
     }
 
     
-    
-    
-
-
     class Language
     {
         public string Iso639_1 { get; set; }
