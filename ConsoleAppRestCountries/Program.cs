@@ -18,10 +18,10 @@ namespace ConsoleAppRestCountries
             //Console.ReadKey();
             
             
-            foreach (class Country in Continents)
-            {
-                Console.WriteLine(Continents);
-            }
+            //foreach (class Country in Continents)
+            //{
+                //Console.WriteLine(Continents);
+            //}
             
         }
 

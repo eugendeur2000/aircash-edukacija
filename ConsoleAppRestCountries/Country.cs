@@ -14,8 +14,15 @@ namespace ConsoleAppRestCountries
         public int Population { get; set; }
         public List<string> Continents { get; set; }
         public decimal Area { get; set; }
+
         public bool LandLocked { get; set; } 
         public List<string> TimeZones { get; set; }
+
+        public bool LandLocked { get; set; }
+        public List<string> Timezones { get; set; }
+        public List<Language> Languages { get; set; }
+
+
 
        
     }
@@ -27,9 +34,20 @@ namespace ConsoleAppRestCountries
         public string NativeName { get; set; }
 
     }
+
     
     
     
+
+
+    class Language
+    {
+        public string Iso639_1 { get; set; }
+        public string Iso639_2 { get; set; }
+        public string Name { get; set; }
+        public string NativeName { get; set; }
+
+    }
 }
 
 
