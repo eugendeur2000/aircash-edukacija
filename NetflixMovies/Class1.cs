@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleAppAppi2
+namespace NetflixMovies
 {
     class Netflix
     {
@@ -13,10 +13,5 @@ namespace ConsoleAppAppi2
         public string Plot { get; set; }
         public string Stars { get; set; }
         public List<string> StarList { get; set; }
-        
-
-
     }
-    
-
 }

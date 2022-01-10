@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleAppAppi2
 {
-    class Netflix
+    class Movies
     {
         public string Title { get; set; }
         public int Id { get; set; }
@@ -13,10 +13,5 @@ namespace ConsoleAppAppi2
         public string Plot { get; set; }
         public string Stars { get; set; }
         public List<string> StarList { get; set; }
-        
-
-
     }
-    
-
 }

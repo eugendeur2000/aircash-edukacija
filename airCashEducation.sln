@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "whilezadatak", "whilezadata
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppRestCountries", "ConsoleAppRestCountries\ConsoleAppRestCountries.csproj", "{B4E17F5D-3D1A-4898-B4F9-388D31A12DE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAppi2", "ConsoleAppAppi2\ConsoleAppAppi2.csproj", "{8D9F43AB-96BA-4E76-B9CD-24DECA94202A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixMovies", "NetflixMovies\NetflixMovies.csproj", "{DFD83850-27AB-4068-A449-4EBEACB4AFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{B4E17F5D-3D1A-4898-B4F9-388D31A12DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E17F5D-3D1A-4898-B4F9-388D31A12DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E17F5D-3D1A-4898-B4F9-388D31A12DE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D9F43AB-96BA-4E76-B9CD-24DECA94202A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D9F43AB-96BA-4E76-B9CD-24DECA94202A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D9F43AB-96BA-4E76-B9CD-24DECA94202A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D9F43AB-96BA-4E76-B9CD-24DECA94202A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD83850-27AB-4068-A449-4EBEACB4AFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD83850-27AB-4068-A449-4EBEACB4AFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD83850-27AB-4068-A449-4EBEACB4AFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD83850-27AB-4068-A449-4EBEACB4AFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
