@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetflixMovies
-
+namespace Genres
 {
-    class Response
+    class Second
     {
         public string querystring { get; set; }
         public List<Movie> results { get; set; }
@@ -18,6 +17,8 @@ namespace NetflixMovies
         public string Genres { get; set; }
         public string Plot { get; set; }
         public string Stars { get; set; }
-        
+
     }
 }
+    
+
